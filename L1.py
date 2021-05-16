@@ -6,7 +6,7 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None
-
+#saramazaheri
     def AddFirst(self, new_data):
         new_node = Node(new_data)
         new_node.next = self.head
@@ -45,7 +45,7 @@ class LinkedList:
         if carry > 0:
             temp.next = Node(carry)
         return prev
-
+#saramazaheri
     def printList(self):
         temp = self.head
         while(temp):
@@ -142,7 +142,7 @@ else:
             result=result.next
         resultlinkedlist.RemoveFirst()  
         resultlinkedlist.AddFirst(secondsign)
-
+#saramazaheri
 # print("First List is ")
 # first.printList()
 # print ("Second List is ")
