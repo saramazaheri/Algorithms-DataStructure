@@ -23,7 +23,7 @@ class SLinkedList:
         if self.head is None:
             return
         self.reverseUtil(self.head, None)
-
+#saramazaheri
     def push(self, new_data):
         new_node = Node(new_data)
         new_node.next = self.head
@@ -44,6 +44,6 @@ print("Given linked list:")
 liste.printList()
  
 liste.reverse()
-
+#saramazaheri
 print("Reverse linked list:")
 liste.printList()
