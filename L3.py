@@ -14,7 +14,7 @@ class BTree:
          self.inorder(x.left)
          print(x.data,end=' ')
          self.inorder(x.right)
-
+#saramazaheri
    def postorder(self,x):
       if x!=None:
          self.postorder(x.left)
@@ -25,7 +25,7 @@ class BTree:
          print(x.data,end=' ')
          self.preorder(x.left)
          self.preorder(x.right)
-         
+         #saramazaheri
 ex= input("Enter Expression:")
 stack=[]
 Tree=BTree()
