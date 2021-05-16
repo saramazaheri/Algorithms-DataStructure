@@ -42,7 +42,7 @@ class stack:
             return True 
         else:
             return False
-    
+    #saramazaheri
     def infixToPostfix(self, exp): 
         
         for i in exp: 
@@ -62,7 +62,7 @@ class stack:
                     return -1
                 else: 
                     self.pop() 
-   
+   #saramazaheri
             else: 
                 while(not self.isEmpty() and self.notGreater(i)): 
                     self.output.append(self.pop()) 
@@ -75,4 +75,4 @@ class stack:
 exp = input("Enter your expression:")
 print("The result of infex to postfix is:")
 obj = stack(len(exp)) 
-obj.infixToPostfix(exp) 
+obj.infixToPostfix(exp) #saramazaheri
