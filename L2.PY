@@ -4,7 +4,7 @@ class _PolyTermNode(object):
         self.degree = degree
         self.coefficient = coefficient
         self.next = None
-
+#saramazaheri
 class Polynomial:
     def __init__(self, degree=None, coefficient=None):
         if degree is None:
@@ -46,7 +46,7 @@ class Polynomial:
         newPoly = Polynomial()
         nodeA = self._polyHead
         nodeB = rhsPoly._polyHead
-
+#saramazaheri
         while nodeA is not None and nodeB is not None:
             if nodeA.degree > nodeB.degree:
                 degree = nodeA.degree
@@ -91,7 +91,7 @@ class Polynomial:
                 nodeB = nodeB.next
             else:
                 degree = nodeA.degree  # or degree = nodeB.degree
-
+#saramazaheri
                 # cannot exchange A and B's position
                 coefficient = nodeA.coefficient - nodeB.coefficient
                 nodeA = nodeA.next
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
     print ("The substraction of the two polynomials is:")
     subPoly.printPoly()
-
+#saramazaheri
     print ("The multiplication of the two polynomials is:")
     mulPoly.printPoly()
 
